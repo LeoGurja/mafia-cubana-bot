@@ -1,0 +1,16 @@
+{
+  "name": "mafia",
+  "description": "Jogo brabo!",
+  "options": [
+    {
+      "name": "join",
+      "description": "Inicia um novo jogo",
+      "type": 1
+    },
+    {
+      "name": "help",
+      "description": "Imprime documentação",
+      "type": 1
+    }
+  ]
+}
