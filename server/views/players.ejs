@@ -1,0 +1,4 @@
+Jogadores:
+<% players.forEach(function(player, index) { -%>
+  <%= index + 1 %> - <%- `<@${player.playerId}>` -%>
+      <% }); %>

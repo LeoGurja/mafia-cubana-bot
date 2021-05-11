@@ -5,7 +5,7 @@ module.exports = {
   },
   extends: [
     'standard',
-    "plugin:jest/recommended"
+    'plugin:jest/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -17,10 +17,14 @@ module.exports = {
     'jest'
   ],
   rules: {
+    'no-useless-constructor': 'off',
     'space-before-function-paren': [
       'error',
       'never'
-    ]
+    ],
+    camelcase: 'off',
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'error'
   },
   ignorePatterns: [
     'build/**/*'
